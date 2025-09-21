@@ -1,7 +1,7 @@
-# BO-DBA (Bayesian Optimization Decision Based Adversarial Attacks) ✏️
+# QE-DBA (Query-Efficient Bayesian Optimization Decision Based Adversarial Attacks) ✏️
 
 ### Here is a brief introduction of what this project is about:
-* BO-DBA is - Query-Efficient Decision-Based Adversarial Attacks via Bayesian Optimization. 
+* QE-DBA is - Query-Efficient Decision-Based Adversarial Attacks via Bayesian Optimization. 
 * Whenever Adversarial examples are concerned, the goal is to always minimize the distance between the original image and the perturbated image, subject to the constraint that we use the same model on both images.
 * So in this project we are aiming to do so by using Bayesian Optimization.
 * The result should be categorising the two images, different from each other, even if they look alike to the human eye.
