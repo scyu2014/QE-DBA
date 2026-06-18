@@ -1,0 +1,31 @@
+# Modern QE-DBA environment
+# Target interpreter: Python 3.11 or 3.12.
+# BoTorch 0.18.1 requires Python >=3.11; TensorFlow's current pip guide
+# supports Python 3.9-3.12.
+
+# Core scientific stack
+numpy>=1.26,<2.0
+scipy>=1.11,<1.15
+pandas>=2.2,<3.0
+matplotlib>=3.8,<4.0
+Pillow>=10.0,<12.0
+PyYAML>=6.0.1,<7.0
+tqdm>=4.66,<5.0
+opencv-python-headless>=4.10,<5.0
+
+# TensorFlow/Keras classifier runtime
+# Use tensorflow[and-cuda] instead on Linux if you explicitly want TF GPU support.
+tensorflow==2.21.0
+
+# PyTorch / BoTorch Bayesian optimization stack
+# For platform-specific CUDA/CPU PyTorch wheels, install torch/torchvision from
+# https://pytorch.org/get-started/locally/ first, then install the rest of this file.
+torch>=2.4,<3.0
+torchvision>=0.19,<1.0
+botorch==0.18.1
+gpytorch==1.15.2
+linear-operator>=0.6,<0.7
+
+# Notebook support
+ipykernel>=6.29,<7.0
+jupyterlab>=4.2,<5.0

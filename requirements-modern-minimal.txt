@@ -1,0 +1,16 @@
+# Minimal runtime for the modernized BODBA.py path only.
+# Target interpreter: Python 3.11 or 3.12.
+
+numpy>=1.26,<2.0
+scipy>=1.11,<1.15
+Pillow>=10.0,<12.0
+PyYAML>=6.0.1,<7.0
+tqdm>=4.66,<5.0
+opencv-python-headless>=4.10,<5.0
+matplotlib>=3.8,<4.0
+
+tensorflow==2.21.0
+torch>=2.4,<3.0
+botorch==0.18.1
+gpytorch==1.15.2
+linear-operator>=0.6,<0.7
