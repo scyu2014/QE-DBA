@@ -1,0 +1,26 @@
+
+# macOS
+.DS_Store
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets and test assets
+DataSet/
+
+# Temporary patch extraction folder
+_patch/
